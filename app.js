@@ -11,14 +11,13 @@ const countdown = () => {
 
   //display times setting
   const textDay = Math.floor(gap / day);
-  const textHour = Math.floor((gap % hour) / hour);
+  const textHour = Math.floor((gap % day) / hour);
   const textMinute = Math.floor((gap % hour) / minute);
   const textSecond = Math.floor((gap % minute) / second);
 
   //add in html
   const days = (document.getElementById("day").innerHTML = textDay);
   const hours = (document.getElementById("hour").innerHTML = textHour);
-  console.log(hours);
   const minutes = (document.getElementById("minute").innerHTML = textMinute);
   const seconds = (document.getElementById("second").innerHTML = textSecond);
 };
