@@ -12,6 +12,7 @@
   flex-direction: column;
   text-align: center;
   margin-top: 3rem;
+  padding: 0 10px;
 }
 .container_body {
   display: flex;
@@ -20,6 +21,9 @@
   justify-content: center;
   margin: auto;
   text-align: center;
+  background-color: rgb(239, 239, 255);
+  padding: 40px;
+  border-radius: 7px;
 }
 .container_body div {
   background-color: rgb(241, 247, 255);
